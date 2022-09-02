@@ -81,3 +81,17 @@ printf("%lu", sizeof(data_types_name));
 ```
 
 > Example: <br> printf("%lu", sizeof(int));
+
+### **Operator Types**
+
+> <ol>
+
+<li>Arithmatic operator:- +, -, *, /, % </li>
+<li>Relational Operator:- ==, !=, >, <, >=, <=</li>
+<li>Logical Operator:- &&, ||, !</li>
+<li>Bitwise Opertor:- &, |, ^, ~, <<, >> </li>
+<li>Assignment Operator:- =, +=, -=, *=, /=</li>
+<li>Miscellaneous Operator:- sizeof(), &, *, ?:</li>
+</ol>
+
+> Example: <br> Valid methods: int name, int num1, int \_age <br> Invalid methods: int $name, int 1num, int long
