@@ -154,3 +154,19 @@ if(condition){
 
 <li>nested if statement</li>
 </ol>
+
+### Switch Case Rulse
+
+<ol><li>Switch comparision must be an int or char</li><li>Case value must be an int or char</li><li>Case must be come inside switch</li><li>Break not must but best practice</li></ol>
+
+```bash
+switch (expression)
+    {
+    case /* constant-expression */:
+        /* code */
+        break;
+
+    default:
+        break;
+    }
+```
