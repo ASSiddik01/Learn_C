@@ -155,7 +155,7 @@ if(condition){
 <li>nested if statement</li>
 </ol>
 
-### Switch Case Rulse
+### **Switch Case Rulse**
 
 <ol><li>Switch comparision must be an int or char</li><li>Case value must be an int or char</li><li>Case must be come inside switch</li><li>Break not must but best practice</li></ol>
 
@@ -169,4 +169,69 @@ switch (expression)
     default:
         break;
     }
+```
+
+### **Loops**
+
+Advantages of loops
+
+<ol><li>Code Reusability</li><li>Saves times</li><li>Traversing</li></ol>
+
+Types of loops
+
+<ol><li>Do while loop</li><li>while loop</li><li>for loop</li></ol>
+
+### do while
+
+```bash
+#include <stdio.h>
+
+int main()
+{
+    int i = 0;
+    do
+    {
+        printf("%d\n",i);
+        i += 1;
+    } while (i < 10);
+
+
+
+    return 0;
+}
+```
+
+### while
+
+```bash
+#include <stdio.h>
+
+int main()
+{
+    int i = 0;
+    while (/* condition */)
+    {
+        /* code */
+    }
+
+    return 0;
+}
+
+```
+
+### for
+
+```bash
+#include <stdio.h>
+
+int main()
+{
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+
 ```
