@@ -34,10 +34,10 @@ scanf("%d", &a);
 
 > Here, %d is the referance of &a and &a to assign the value in "a" variable
 
-### **Programe Compile**
+### **Program Compile**
 
 ```bash
-gcc file_name -o programe_name
+gcc file_name -o program_name
 ```
 
 > Example: <br> gcc 01.add.c -o getInput
@@ -236,7 +236,7 @@ int main()
 
 ```
 
-### Break Statement
+### **Break Statement**
 
 Break condition stop the code when meet the condition and continue condition skip the code when condition meet
 
@@ -265,7 +265,7 @@ int main()
 
 ```
 
-### Goto Statement
+### **Goto Statement**
 
 Goto means jump the code
 
@@ -286,7 +286,7 @@ int main()
 
 ```
 
-### Typecasting
+### **Typecasting**
 
 Typecasting a type convertion method in C. Typecasting syntex is below:-
 
@@ -294,6 +294,8 @@ Typecasting a type convertion method in C. Typecasting syntex is below:-
 (type) value
 
 ```
+
+> Example:
 
 ```bash
 #include <stdio.h>
@@ -307,3 +309,25 @@ int main()
 }
 
 ```
+
+### **Function**
+
+<ul><li>Function are make a large program into small pices</li><li>Function make for code reuseable</li></ul>
+
+```bash
+rerutn_type function_name(data_parameter,......){
+    code_that_you_executed
+}
+```
+
+> Example:
+
+```bash
+int sum(int a, int b){
+    printf("%d", a + b);
+}
+```
+
+Types of Function
+
+<ol><li>Library function - function included in C header files</li><li>User defined function - function created by programmers</li></ol>
