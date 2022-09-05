@@ -331,3 +331,7 @@ int sum(int a, int b){
 Types of Function
 
 <ol><li>Library function - function included in C header files</li><li>User defined function - function created by programmers</li></ol>
+
+### **Recursion**
+
+Recursion or recursive function which calls itself
