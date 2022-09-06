@@ -335,3 +335,45 @@ Types of Function
 ### **Recursion**
 
 Recursion or recursive function which calls itself
+
+```bash
+int factorial(int num){
+    if (num == 1 || num == 0){
+        return 1;
+    }
+    else
+    {
+        return (num * factorial(num - 1));
+    }
+}
+```
+
+### **Array**
+
+<ol><li>Array is the same type data collection</li><li>Data items are stored as contiguous memory location</li><li>Array make code more readable and organized</li><li>Array data accressing very fast</li><li>Array data access by index nubmer - Index number is start with 0</li></ol>
+
+One-D array syntex
+
+```bash
+data_type array_name[data_size] = {data_collection}
+```
+
+> Example:
+
+```bash
+    int studentMarkes[4] = {23,12,21,43};
+    printf("One-D array %d\n",studentMarkes[2]);
+```
+
+Two-D array syntex
+
+```bash
+data_type array_name[rows][columns] = {{data_collection},{data_collection}}
+```
+
+> Example:
+
+```bash
+    int studentAge[2][4] = {{23,12,21,14},{24,13,15,16}};
+    printf("Two-D array %d\n",studentAge[1][2]);
+```
