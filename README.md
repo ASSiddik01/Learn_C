@@ -377,3 +377,28 @@ data_type array_name[rows][columns] = {{data_collection},{data_collection}}
     int studentAge[2][4] = {{23,12,21,14},{24,13,15,16}};
     printf("Two-D array %d\n",studentAge[1][2]);
 ```
+
+### **Pointer**
+
+<ol><li>Pointer is a variable which store another variable address</li><li>Pointer declared * (asterisk) sign</li><li>P points to a means - p store a variable memory address</li><li>int *pointer_name = &variable_name</li><li>& - return the address of a variable and * - de-reference/indirection operator used to get the value at a given address</li></ol>
+
+Uses of Pointer
+
+<ol><li>Dynamic memory allocation</li><li>Return multiple value form a function</li><li>Pointer reduces the code and improves the performances</li></ol>
+
+```bash
+#include <stdio.h>
+
+int main()
+{
+    int a = 12;
+    int *ptra = &a;
+
+    printf("The value of a is %d\n", a);
+    printf("The value of ptra is %d\n", *ptra);
+    printf("The address of a is %p\n", ptra);
+    printf("The address of ptra is %p\n", &ptra);
+    return 0;
+}
+
+```
