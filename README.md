@@ -443,3 +443,22 @@ int main()
     return 0;
 }
 ```
+
+### **String Data Types in C**
+
+String is a character array.
+
+<ol><li>String data types in not supported in C</li><li>String is a array of characters terminated by NULL character</li><li></li></ol>
+
+```bash
+#include <stdio.h>
+int main()
+{
+    char name[30];
+    printf("Enter name: ");
+    fgets(name, sizeof(name), stdin); // read string
+    printf("Name: ");
+    puts(name); // display string
+    return 0;
+}
+```
