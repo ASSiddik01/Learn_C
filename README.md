@@ -402,3 +402,44 @@ int main()
 }
 
 ```
+
+### **Types of Function Call in C Programming**
+
+<ol><li>Call by Value</li><li>Call by Refereneces</li></ol>
+
+### 1. Call by Value
+
+Call by value means actual parameters. Which is passed as a arguments when call a function.
+
+### 2. Call by Reference
+
+Call by references means formal parameters. Which is variable memory address passed as a arguments
+
+```bash
+#include <stdio.h>
+
+
+int callByValue(int num)
+{
+    return num;
+}
+
+
+void callByReferences(int *num)
+{
+    *num = 5634;
+}
+
+
+int main()
+{
+    int a = 34;
+    // call by value
+    printf("The value of a is %d\n", callByValue(a));
+    // call by referances
+    callByReferences(&a);
+    printf("The value of a is %d\n", callByValue(a));
+
+    return 0;
+}
+```
