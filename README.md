@@ -12,7 +12,7 @@
 
 <hr>
 
-### **Comment and Escap sequance**
+### **Comment and Escap Sequance**
 
 ```bash
 
