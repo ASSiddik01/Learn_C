@@ -74,6 +74,27 @@ printf("%lu", sizeof(data_types_name));
 
 N.B. - sizeof print by lu or ld
 
+### **Lower to Uppercase**
+
+By manual
+
+```bash
+printf("By manual = %c\n", lower - 32);
+```
+
+N.B. - Upper to lower case distence 32
+
+> Example: <br> printf("By manual = %c\n", lower - 32);
+
+By Function
+
+```bash
+#include <ctype.h>
+printf("By function = %c\n", toupper(lower));
+```
+
+> Example: <br> printf("By function = %c\n", toupper(lower));
+
 ### **Operator Types**
 
 > <ol><li>Arithmatic operator:- +, -, *, /, % </li><li>Relational Operator:- ==, !=, >, <, >=, <=</li><li>Logical Operator:- &&, ||, !</li><li>Bitwise Opertor:- &, |, ^, ~, <<, >> </li><li>Assignment Operator:- =, +=, -=, *=, /=</li><li>Miscellaneous Operator:- sizeof(), &, *, ?:</li></ol>
