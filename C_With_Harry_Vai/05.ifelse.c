@@ -10,7 +10,7 @@ int main()
     {
         printf("You are allowed for marriage\n");
     }
-    else if (age>=18)
+    else if ( age>=18 && age<=19 )
     {
         printf("You are allowed for vote\n");
     }

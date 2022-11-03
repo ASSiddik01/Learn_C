@@ -6,6 +6,41 @@
 
 > ===== Note: All underscre ( \_ ) sectence will replace by yours without only type =====
 
+<hr>
+
+### **_AniSul Islam_**
+
+<hr>
+
+### **Comment and Escap sequance**
+
+```bash
+
+// This program show my name
+#include <stdio.h>
+int main()
+{
+    /*
+    Multiple
+    line
+    comment
+    */
+    printf("My name Shama\n");
+    printf("BRUR");
+    return 0;
+}
+
+```
+
+<hr>
+<hr>
+
+<hr>
+
+### **_Code with Harry_**
+
+<hr>
+
 ### **Basic Structure**
 
 ```bash
