@@ -8,39 +8,6 @@
 
 <hr>
 
-### **_AniSul Islam_**
-
-<hr>
-
-### **Comment and Escap Sequance**
-
-```bash
-
-// This program show my name
-#include <stdio.h>
-int main()
-{
-    /*
-    Multiple
-    line
-    comment
-    */
-    printf("My name Shama\n");
-    printf("BRUR");
-    return 0;
-}
-
-```
-
-<hr>
-<hr>
-
-<hr>
-
-### **_Code with Harry_**
-
-<hr>
-
 ### **Basic Structure**
 
 ```bash
@@ -104,6 +71,8 @@ printf("%lu", sizeof(data_types_name));
 ```
 
 > Example: <br> printf("%lu", sizeof(int));
+
+N.B. - sizeof print by lu or ld
 
 ### **Operator Types**
 
