@@ -79,7 +79,7 @@ N.B. - sizeof print by lu or ld
 By manual
 
 ```bash
-printf("By manual = %c\n", lower - 32);
+printf("By manual = %c\n", lower_value_varible - 32);
 ```
 
 N.B. - Upper to lower case distence 32
@@ -90,10 +90,31 @@ By Function
 
 ```bash
 #include <ctype.h>
-printf("By function = %c\n", toupper(lower));
+printf("By function = %c\n", toupper(lower_value_varible));
 ```
 
 > Example: <br> printf("By function = %c\n", toupper(lower));
+
+### **Upper to Lowercase**
+
+By manual
+
+```bash
+printf("By manual = %c\n", upper_value_varible + 32);
+```
+
+N.B. - Upper to lower case distence 32
+
+> Example: <br> printf("By manual = %c\n", upper + 32);
+
+By Function
+
+```bash
+#include <ctype.h>
+printf("By function = %c\n", tolower(upper_value_varible));
+```
+
+> Example: <br> printf("By function = %c\n", tolower(upper));
 
 ### **Operator Types**
 
