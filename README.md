@@ -122,7 +122,7 @@ printf("By function = %c\n", tolower(upper_value_varible));
 
 ### **specifier**
 
-> <ol><li>%c - refers the character</li><li>%d - refers the integer</li><li>%f - refers the float</li><li>%l - refers the long</li><li>%lf - refers the double</li><li>%LF - refers the long double</li></ol>
+> <ol><li>%c - refers the character</li><li>%d - refers the integer/decimal number</li><li>%f - refers the float</li><li>%l - refers the long</li><li>%lf - refers the double</li><li>%LF - refers the long double</li><li>%o - refers the octal</li><li>%ld - refers the sizeof</li></ol>
 
 ```bash
 #include <stdio.h>
